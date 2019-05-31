@@ -1,0 +1,23 @@
+{
+  "name": "graphql-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "mocha",
+    "init": "node initialize.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.5.1",
+    "graphql": "^14.3.1",
+    "mongoose": "^5.5.12"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0"
+  }
+}
