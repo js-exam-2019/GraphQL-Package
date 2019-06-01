@@ -1,33 +1,95 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+button {
+  padding: 1rem;
+  background-color: dodgerblue;
+  width: 8rem;
+  height: 3rem;
   color: white;
+  font-size: 18px;
+  font-weight: bold;
 }
 
-.App-link {
-  color: #61dafb;
+table {
+  width: 100vw;
+  border-width: 1px;
+  border-style: none none solid none;
+  border-bottom-color: dodgerblue;
+  margin: 1rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+th {
+  color: dodgerblue;
+  font-size: 18px;
+  text-align: left;
+  border-width: 1px;
+  border-style: none none solid none;
+  border-bottom-color: dodgerblue;
+  padding: 1rem;
+}
+
+tr {
+  height: 3rem;
+}
+
+
+.listView {
+  display: flex;
+  overflow: auto;
+}
+
+.filters {
+  display: flex;
+  justify-content:space-evenly;
+  flex-direction: column;
+}
+
+.filter {
+  margin: 1rem;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.filter input {
+  margin-left: 1rem;
+}
+
+.filterContainer {
+  display: flex;
+  justify-content:stretch;
+  flex-direction: column;
+}
+
+.form {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 2rem;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.formInput {
+  display: flex;
+  flex-direction: column;
+  padding-right: 3rem;
+}
+
+.formInput input{
+  font-size: 18px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+h1 {
+  padding: 15px;
 }

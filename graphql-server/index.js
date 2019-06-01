@@ -1,7 +1,7 @@
 const { ApolloServer } = require('apollo-server');
 const resolvers = require('./queries/resolvers');
 const typeDefs = require('./queries/typeDefs');
-const port = 3000;
+const port = 5000;
 
 const server = new ApolloServer({ typeDefs, resolvers });
 
